@@ -1,0 +1,15 @@
+{
+  "sample_n": 2693,
+  "entities": 142,
+  "years": [
+    1972,
+    2023
+  ],
+  "controls": [
+    "gross_fixed_capital_formation_perecent_of_gdp",
+    "trade_percentageof_gdp",
+    "inflation_consumer_prices_annual_perecentage_growth",
+    "population_growth_annual_percentage",
+    "expenditure_on_education"
+  ]
+}

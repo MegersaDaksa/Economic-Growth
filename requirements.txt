@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+statsmodels
+linearmodels
+pydynpd
+openpyxl
+pyyaml
+matplotlib
+seaborn
+tabulate
