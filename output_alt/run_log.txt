@@ -1,0 +1,8 @@
+Running causal analysis pipeline
+Prepared sample rows: 2693
+TWFE completed
+IV-FE completed
+System GMM completed with command: ln_gdp_pc L1.ln_gdp_pc repression gross_fixed_capital_formation_perecent_of_gdp trade_percentageof_gdp inflation_consumer_prices_annual_perecentage_growth population_growth_annual_percentage expenditure_on_education | gmm(ln_gdp_pc repression, 2:4) iv(gross_fixed_capital_formation_perecent_of_gdp trade_percentageof_gdp inflation_consumer_prices_annual_perecentage_growth population_growth_annual_percentage expenditure_on_education) | onestep collapse
+System GMM diagnostics are disabled due package compatibility patch.
+DID completed
+Event-study completed

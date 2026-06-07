@@ -3,8 +3,8 @@
 Dep. Variable:              ln_gdp_pc   R-squared:                      0.9923
 Estimator:                    IV-2SLS   Adj. R-squared:                 0.9917
 No. Observations:                2693   F-statistic:                 1.328e+19
-Date:                Sat, May 23 2026   P-value (F-stat)                0.0000
-Time:                        16:55:38   Distribution:                chi2(198)
+Date:                Sun, Jun 07 2026   P-value (F-stat)                0.0000
+Time:                        15:15:58   Distribution:                chi2(198)
 Cov. Estimator:             clustered                                         
                                                                               
                                                   Parameter Estimates                                                  

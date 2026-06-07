@@ -1,0 +1,26 @@
+data:
+  input_file: combined_GDP_growth_1970_2024_with_VDem.xlsx
+  output_dir: output_alt
+
+variables:
+  entity: Country
+  time: Year
+  income_level: GDP_percapita
+  income_growth: GDP_per_capita__annual_perecentage_growth
+  repression: v2clkill
+  repression_alt: v2cltort
+  iv: v2x_clphy
+  controls:
+    - Gross_fixed_capital_formation_perecent_of_GDP
+    - Trade_Percentageof_GDP
+    - Inflation__consumer_prices_annual_perecentage_growth
+    - Population_growth_Annual_Percentage
+    - Expenditure_on_education
+
+model:
+  min_year: 1970
+  max_year: 2024
+  did_shock_quantile: 0.75
+  event_window:
+    lead: 5
+    lag: 5

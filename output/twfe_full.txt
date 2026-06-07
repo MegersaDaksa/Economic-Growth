@@ -3,8 +3,8 @@
 Dep. Variable:              ln_gdp_pc   R-squared:                        0.0425
 Estimator:                   PanelOLS   R-squared (Between):              0.0277
 No. Observations:                2693   R-squared (Within):               0.0216
-Date:                Sat, May 23 2026   R-squared (Overall):              0.0272
-Time:                        16:55:30   Log-likelihood                    1703.2
+Date:                Sun, Jun 07 2026   R-squared (Overall):              0.0272
+Time:                        15:15:56   Log-likelihood                    1703.2
 Cov. Estimator:             Clustered                                           
                                         F-statistic:                      18.443
 Entities:                         142   P-value                           0.0000

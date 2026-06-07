@@ -1,0 +1,36 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:              ln_gdp_pc   R-squared:                        0.0419
+Estimator:                   PanelOLS   R-squared (Between):              0.0275
+No. Observations:                2693   R-squared (Within):               0.0228
+Date:                Sun, Jun 07 2026   R-squared (Overall):              0.0267
+Time:                        15:24:15   Log-likelihood                    1702.3
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      18.166
+Entities:                         142   P-value                           0.0000
+Avg Obs:                       18.965   Distribution:                  F(6,2494)
+Min Obs:                       1.0000                                           
+Max Obs:                       49.000   F-statistic (robust):             2.6441
+                                        P-value                           0.0147
+Time periods:                      52   Distribution:                  F(6,2494)
+Avg Obs:                       51.788                                           
+Min Obs:                       1.0000                                           
+Max Obs:                       123.00                                           
+                                                                                
+                                                  Parameter Estimates                                                  
+=======================================================================================================================
+                                                     Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------------------------------------
+did_treat_post                                          0.0193     0.0568     0.3401     0.7338     -0.0921      0.1308
+gross_fixed_capital_formation_perecent_of_gdp           0.0050     0.0018     2.6935     0.0071      0.0014      0.0086
+trade_percentageof_gdp                              -2.029e-05     0.0005    -0.0386     0.9692     -0.0011      0.0010
+inflation_consumer_prices_annual_perecentage_growth    -0.0004     0.0002    -1.9783     0.0480     -0.0007  -3.185e-06
+population_growth_annual_percentage                     0.0152     0.0100     1.5202     0.1286     -0.0044      0.0349
+expenditure_on_education                               -0.0010     0.0027    -0.3584     0.7200     -0.0064      0.0044
+=======================================================================================================================
+
+F-test for Poolability: 874.09
+P-value: 0.0000
+Distribution: F(192,2494)
+
+Included effects: Entity, Time
